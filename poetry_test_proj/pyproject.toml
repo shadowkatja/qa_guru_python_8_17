@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-test-project"
+version = "0.1.0"
+description = "Homework for QA GURU lesson 18"
+authors = ["Ekaterina Goldinova <shadowkatja@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "^2.0.0b4"
+pytest = "7.4.3"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
